@@ -26,4 +26,28 @@ img {
 p {
     padding: 10px;
 }
-
+main {
+    max-width: 840px;
+}
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #e9d5f1;
+    color: #333;
+    text-align: center;
+}
+aside img {
+    width: 200px;
+    height: auto;
+}
+p { padding: 0; }
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+    background-color: rgb(204, 155, 204);
+    padding: 10px;
+    font-size: smaller;
+}
