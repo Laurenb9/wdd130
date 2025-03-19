@@ -49,5 +49,5 @@ footer {
     text-align: center;
     background-color: rgb(204, 155, 204);
     padding: 10px;
-    font-size: smaller;
+    font-size: smaller; /*this is a comment*/
 }
