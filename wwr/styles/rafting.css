@@ -38,32 +38,11 @@ nav a {
 }
 
 /* Hero Section */
+/* Hero Section */
 .hero {
     display: grid;
     grid-template-columns: 1fr 1fr; 
     align-items: center; 
-    text-align: center; 
-    position: right;
-    text-align: center;
-    background-color: #FFFD98; /* Mindaro */
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    padding: 30px;
-}
-
-.hero h1 {
-    grid-column: 1 / 3; 
-    justify-self: center; 
-    font-size: 2em;
-    padding: 10px;
-    color: #BC412B; /* Persian red */
-}
-
-.hero {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    align-items: center;
     padding: 40px;
     background-color: #FFFD98; /* Mindaro */
 }
@@ -73,7 +52,7 @@ nav a {
     text-align: center;
     font-size: 2em;
     padding: 10px;
-    color: #BC412B;
+    color: #BC412B; /* Persian red */
 }
 
 .hero article {
