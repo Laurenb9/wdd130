@@ -38,7 +38,6 @@ nav a {
 }
 
 /* Hero Section */
-/* Hero Section */
 .hero {
     display: grid;
     grid-template-columns: 1fr 1fr; 
@@ -147,5 +146,7 @@ footer nav {
 }
 
 footer nav a img {
+    background-color: #FFFFFF;
+    border-radius: 17px;
     width: 40px;
 }
