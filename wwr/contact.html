@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
@@ -60,22 +60,22 @@
                 </fieldset>
                 <fieldset>
                     <legend>Which of the following is the reason you are contacting us?</legend>
-                    <label for="generalinquiry" id="generalinquiry">General Inquiry</label>
-                    <input type="radio">
-                    <label for="reservationquestion" id="reservationquestion">Reservation Question</label>
-                    <input type="radio">
-                    <label for="websitesuggestion" id="websitesuggestion">Website Suggestion</label>
-                    <input type="radio">
+                    <label for="generalinquiry">General Inquiry</label>
+                    <input type="radio" id="generalinquiry">
+                    <label for="reservationquestion">Reservation Question</label>
+                    <input type="radio" id="reservationquestion">
+                    <label for="websitesuggestion">Website Suggestion</label>
+                    <input type="radio" id="websitesuggestion">
                 </fieldset>
                 <fieldset>
                     <legend>Write your message here</legend>
-                    <label for="specifications" id="specifications">Please specify the reason why you are contacting us</label>
-                    <textarea name="specifications" id="specifications" rows="10"></textarea>
+                    <label for="contactspecifications" id="contactreason">Please specify your contact reason:</label>
+                    <textarea id="contactspecifications"></textarea> 
                 </fieldset>
                 <fieldset>
                     <legend>Monthly Newsletter Suscribtion</legend>
-                    <label for="Please subscribe me to the monthly newsletter" id="Please subscribe me to the monthly newsletter">Please subscribe me to the monthly newsletter</label>
-                    <input type="checkbox" name="Please subscribe me to the monthly newsletter" id="Please subscribe me to the monthly newsletter">
+                    <label for="monthlyNewsletter">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" id="monthlyNewsletter">
                 </fieldset>
                 <button type="submit">Submit Form</button>
             </form>
