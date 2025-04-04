@@ -59,44 +59,59 @@
         </div>
         <div class="form">
             <form>
-                <h2>Contact Form</h2>
-                <fieldset>
-                    <div class="contact-info">
-                        <legend><h4>Contact Information</h4></legend>
-                        <label for="fullname">Full Name:</label>
-                        <input type="text" id="fullname" name="fullname">
-                        <label for="useremail">Email:</label>
-                        <input type="text" id="useremail" name="useremail">
-                    </div>
-                </fieldset>
-                <fieldset> <div class="reason">
-                    <legend><h4>Which of the following is the reason you are contacting us?</h4></legend>
-                    <label for="generalinquiry">General Inquiry</label>
-                    <input type="radio" id="generalinquiry">
-                    <label for="reservationquestion">Reservation Question</label>
-                    <input type="radio" id="reservationquestion">
-                    <label for="websitesuggestion">Website Suggestion</label>
-                    <input type="radio" id="websitesuggestion">
+              <h2>Contact Form</h2>
+          
+              <fieldset>
+                <legend>Contact Information</legend>
+                <div class="contact-info">
+                  <label for="fullname">Full Name:</label>
+                  <input type="text" id="fullname" name="fullname">
+          
+                  <label for="useremail">Email:</label>
+                  <input type="text" id="useremail" name="useremail">
                 </div>
-                </fieldset>
-                <fieldset>
-                    <div class="message">
-                        <legend><h4>Write your message here</h4></legend>
-                        <label for="contactspecifications" id="contactreason">Please specify your contact reason:</label>
-                        <div class="textarea"><textarea id="contactspecifications"></textarea> </div>
-                    </div>
-                </fieldset>
-                <fieldset>
-                   <div class="checkbox">
-                    <legend><h4>Monthly Newsletter Suscribtion</h4></legend>
-                    <label for="monthlyNewsletter">Please subscribe me to the monthly newsletter</label>
-                    <input type="checkbox" id="monthlyNewsletter">
-                   </div>
-                </fieldset>
-                <button type="submit">Submit Form</button>
+              </fieldset>
+          
+              <fieldset>
+                <legend>Which of the following is the reason you are contacting us?</legend>
+                <div class="reason">
+                  <label for="generalinquiry">
+                    <input type="radio" id="generalinquiry" name="reason"> General Inquiry
+                  </label>
+          
+                  <label for="reservationquestion">
+                    <input type="radio" id="reservationquestion" name="reason"> Reservation Question
+                  </label>
+          
+                  <label for="websitesuggestion">
+                    <input type="radio" id="websitesuggestion" name="reason"> Website Suggestion
+                  </label>
+                </div>
+              </fieldset>
+          
+              <fieldset>
+                <legend>Write your message here</legend>
+                <div class="message">
+                  <label for="contactspecifications" id="contactreason">Please specify your contact reason:</label>
+                  <div class="textarea">
+                    <textarea id="contactspecifications" name="message"></textarea>
+                  </div>
+                </div>
+              </fieldset>
+          
+              <fieldset>
+                <legend>Monthly Newsletter Subscription</legend>
+                <div class="checkbox">
+                  <label for="monthlyNewsletter">
+                    <input type="checkbox" id="monthlyNewsletter" name="newsletter">
+                    Please subscribe me to the monthly newsletter
+                  </label>
+                </div>
+              </fieldset>
+          
+              <button type="submit">Submit Form</button>
             </form>
-
-        </div>
+          </div>  
     </main>
 
     <footer>
